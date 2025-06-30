@@ -2,4 +2,6 @@
 <resources>
     <string name="label_hello_world">Привет мир!</string>
     <string name="action_hello">Привет пользователь</string>
+    <string name="label_heading_welcome_text">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="label_sub_heading_welcome_text">Созданный студентом Машьянов В.А.</string>
 </resources>

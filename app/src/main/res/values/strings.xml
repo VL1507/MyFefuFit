@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">MyFefuFit</string>
+    <string name="app_name" translatable="false">MyFefuFit</string>
     <string name="label_hello_world">Hello World!</string>
     <string name="action_hello">Hello user</string>
+    <string name="label_heading_welcome_text">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="label_sub_heading_welcome_text">Созданный студентом Машьянов В.А.</string>
 </resources>
