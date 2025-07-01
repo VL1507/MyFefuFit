@@ -24,4 +24,8 @@
     <string name="label_menu_profile">Профиль</string>
     <string name="label_tab_my">Моя</string>
     <string name="label_tab_users">Пользователей</string>
+    <string name="label_change_password">Изменить пароль</string>
+    <string name="label_old_password">Старый пароль</string>
+    <string name="label_new_password">Новый пароль</string>
+    <string name="label_accept">Принять</string>
 </resources>

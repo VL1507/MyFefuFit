@@ -48,5 +48,6 @@ class lab3_SportsFragment : Fragment(R.layout.lab3_fragment_sports) {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+
     }
 }

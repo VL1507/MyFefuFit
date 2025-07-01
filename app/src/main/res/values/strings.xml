@@ -12,14 +12,18 @@
     <string name="label_password_reg">Password</string>
     <string name="label_password_2_reg">Repeat password</string>
     <string name="lable_male">Male</string>
-    <string name="lable_female">Женский</string>
+    <string name="lable_female">Female</string>
     <string name="lable_other">Other</string>
     <string name="label_gender">Gender</string>
-    <string name="label_reg_consent">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+    <string name="label_reg_consent">By clicking the button, you agree to the privacy policy and personal data processing, and also accept the user agreement</string>
     <string name="label_login_page_title">Login</string>
     <string name="label_login_button">Login</string>
-    <string name="label_menu_sports">Активность</string>
-    <string name="label_menu_profile">Профиль</string>
-    <string name="label_tab_my">Моя</string>
-    <string name="label_tab_users">Пользователей</string>
+    <string name="label_menu_sports">Activity</string>
+    <string name="label_menu_profile">Profile</string>
+    <string name="label_tab_my">My</string>
+    <string name="label_tab_users">Users</string>
+    <string name="label_change_password">Change password</string>
+    <string name="label_old_password">Old Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_accept">Accept</string>
 </resources>

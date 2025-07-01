@@ -4,5 +4,7 @@
     <color name="Primary">#4B09F3</color>
     <color name="Dark">#101010</color>
     <color name="Gray">#808080</color>
+    <color name="Black">#000000</color>
+    <color name="Error">#B00020</color>
 
 </resources>

@@ -6,16 +6,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myfefufit.databinding.Lab3FragmentPersonalAreaBinding
+import com.example.myfefufit.databinding.Lab5FragmentProfileBinding
 
-class lab3_PersonalAreaFragment : Fragment(R.layout.lab3_fragment_personal_area) {
+class lab5_ProfileFragment : Fragment(R.layout.lab5_fragment_profile) {
     companion object {
-        fun newInstance() = lab3_PersonalAreaFragment()
+        fun newInstance() = lab5_ProfileFragment()
     }
 
-    private var _binding: Lab3FragmentPersonalAreaBinding? = null
+    private var _binding: Lab5FragmentProfileBinding? = null
 
-    private val binding: Lab3FragmentPersonalAreaBinding
+    private val binding: Lab5FragmentProfileBinding
         get() = _binding!!
 
     override fun onCreateView(
@@ -24,7 +24,7 @@ class lab3_PersonalAreaFragment : Fragment(R.layout.lab3_fragment_personal_area)
         savedInstanceState: Bundle?
     ): View? {
         val view = super.onCreateView(inflater, container, savedInstanceState)
-        _binding = view?.let { Lab3FragmentPersonalAreaBinding.bind(it) }
+        _binding = view?.let { Lab5FragmentProfileBinding.bind(it) }
         return view
     }
 
@@ -42,11 +42,9 @@ class lab3_PersonalAreaFragment : Fragment(R.layout.lab3_fragment_personal_area)
                 .addToBackStack(null)
                 .commit()
         }
-
         binding.saveData.setOnClickListener {
             val intent = Intent(requireContext(), lab3_EmptystateActivity::class.java)
             startActivity(intent)
         }
     }
-
 }
