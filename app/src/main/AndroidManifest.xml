@@ -33,6 +33,10 @@
             android:name=".lab2_LoginActivity"
             android:exported="true" />
 
+        <activity
+            android:name=".lab3_EmptystateActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
