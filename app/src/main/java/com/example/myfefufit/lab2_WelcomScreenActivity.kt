@@ -22,6 +22,10 @@ class lab2_WelcomScreenActivity : Activity() {
         }
 
 
+        binding.loginTextView.setOnClickListener {
+            val intent = Intent(this, lab2_LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }

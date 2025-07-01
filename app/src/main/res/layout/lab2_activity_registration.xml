@@ -105,7 +105,6 @@
 
             <RadioButton
                 style="@style/RadioButtonReg"
-                android:checked="true"
                 android:text="@string/lable_male"
 
                 />
