@@ -19,8 +19,8 @@
 
     <TextView
         android:id="@+id/HeadingWelcomeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/HeadingWelcomeText"
+        android:paddingHorizontal="20dp"
         android:text="@string/label_heading_welcome_text"
         app:layout_constraintBottom_toTopOf="@+id/SubHeadingWelcomeText"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,8 +29,7 @@
 
     <TextView
         android:id="@+id/SubHeadingWelcomeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/SubHeadingWelcomeText"
         android:text="@string/label_sub_heading_welcome_text"
         app:layout_constraintBottom_toTopOf="@+id/registerButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,8 +38,8 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/registerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/registerButton"
+        android:text="@string/label_register_button"
         app:layout_constraintBottom_toTopOf="@+id/loginTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,13 +48,12 @@
 
     <TextView
         android:id="@+id/loginTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/loginTextView"
+        android:text="@string/label_login_text_view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerButton" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

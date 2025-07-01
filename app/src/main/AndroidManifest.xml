@@ -13,13 +13,23 @@
         android:theme="@style/Theme.MyFefuFit"
         tools:targetApi="31">
 
-        <activity
-            android:name=".lab1_HelloWorldActivity"
-            android:exported="true">
-        </activity>
+        <!--        <activity-->
+        <!--            android:name=".lab1_HelloWorldActivity"-->
+        <!--            android:exported="true">-->
+        <!--        </activity>-->
+
+        <!--        <activity-->
+        <!--            android:name=".lab1_HelloUserActivity"-->
+        <!--            android:exported="true">-->
+
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.MAIN" />-->
+        <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+        <!--            </intent-filter>-->
+        <!--        </activity>-->
 
         <activity
-            android:name=".lab1_HelloUserActivity"
+            android:name=".lab2_WelcomScreenActivity"
             android:exported="true">
 
             <intent-filter>
@@ -27,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".lab2_RegistrationActivity"
+            android:exported="true" />
 
     </application>
 

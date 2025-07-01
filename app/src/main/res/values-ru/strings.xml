@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--    1-->
     <string name="label_hello_world">Привет мир!</string>
     <string name="action_hello">Привет пользователь</string>
+    <!--    2-->
     <string name="label_heading_welcome_text">Пожалуй, лучший фитнес трекер в ДВФУ</string>
     <string name="label_sub_heading_welcome_text">Созданный студентом Машьянов В.А.</string>
+    <string name="label_register_button">Зарегистрироваться</string>
+    <string name="label_login_text_view">Уже есть аккаунт?</string>
+    <string name="label_reg_page_title">Регистрация</string>
+    <string name="label_login_reg">Логин</string>
+    <string name="label_nickname_reg">Имя или никнейм</string>
+    <string name="label_password_reg">Пароль</string>
+    <string name="label_password_2_reg">Повторите пароль</string>
+    <string name="lable_male">Мужской</string>
+    <string name="lable_female">Женский</string>
+    <string name="lable_other">Другое</string>
+    <string name="label_gender">Пол</string>
+    <string name="label_reg_consent">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
 </resources>
