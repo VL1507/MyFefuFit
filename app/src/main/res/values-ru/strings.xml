@@ -20,4 +20,8 @@
     <string name="label_reg_consent">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
     <string name="label_login_page_title">Вход</string>
     <string name="label_login_button">Войти</string>
+    <string name="label_menu_sports">Активность</string>
+    <string name="label_menu_profile">Профиль</string>
+    <string name="label_tab_my">Моя</string>
+    <string name="label_tab_users">Пользователей</string>
 </resources>
