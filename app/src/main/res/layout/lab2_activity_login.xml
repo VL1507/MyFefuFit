@@ -70,7 +70,7 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/registerButton"
+        android:id="@+id/loginButton"
         style="@style/registerButtonReg"
         android:text="@string/label_login_button"
         app:layout_constraintEnd_toEndOf="parent"

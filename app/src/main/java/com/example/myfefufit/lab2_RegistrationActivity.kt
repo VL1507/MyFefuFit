@@ -52,8 +52,8 @@ class lab2_RegistrationActivity : Activity() {
 
 
         binding.registerButton.setOnClickListener {
-//                val intent = Intent(this, lab2_WelcomScreenActivity::class.java)
-//                startActivity(intent)
+                val intent = Intent(this, lab3_EmptystateActivity::class.java)
+                startActivity(intent)
             }
     }
 }

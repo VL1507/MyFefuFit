@@ -20,9 +20,9 @@ class lab2_LoginActivity : Activity() {
             startActivity(intent)
         }
 
-//        binding.arrowBackBtn.setOnClickListener {
-//            val intent = Intent(this, lab2_WelcomScreenActivity::class.java)
-//            startActivity(intent)
-//        }
+        binding.loginButton.setOnClickListener {
+            val intent = Intent(this, lab3_EmptystateActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
